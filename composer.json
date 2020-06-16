@@ -1,0 +1,25 @@
+{
+  "name": "diogofelipeladorucki/sistema_academico",
+  "description": "Sistema Acadêmico",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Diogo Felipe",
+      "email": "diogo.felipe@outlook.com",
+      "homepage": "https://github.com/diogofelipeladorucki",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-lib": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/",
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "phpmailer/phpmailer": "^6.1"
+  }
+}
