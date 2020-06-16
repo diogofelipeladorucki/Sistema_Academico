@@ -1,5 +1,5 @@
 <?php
-session_start(); phpinfo();
+session_start();
 $raiz = '../../';
 require_once $raiz."vendor/autoload.php";
 
