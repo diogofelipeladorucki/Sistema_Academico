@@ -26,7 +26,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 ### Implementações do Sistema
 
 - [x] Criar o back-end com as pricipais regras de negócio.
-- [ ] Criar uma interface agradável.
+- [x] Criar uma interface agradável.
 - [ ] Organizar e limpar o código.
 - [ ] Melhorar as regras de negócio.
 - [ ] Implementar validação no lado do cliente (JavaScript).

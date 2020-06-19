@@ -21,8 +21,8 @@ if($_POST["nomeCompleto"] && $_POST["username"] && $_POST["email"] && $_POST["se
                         $_POST["email"], 
                         $_POST["senha"])){
                         
-        $_SESSION["msgSucesso"] = "Cadastro criado com sucesso! 
-        Clique <a href='../../index'>aqui</a> para fazer o login."; 
+        $_SESSION["msgSucesso"] = "Cadastro criado com sucesso!<br> 
+        <a href='../../index' class='alert-link'>Faça o login</a>"; 
 
         header("Location: usuarioCadastrarForm.adm.php");
         exit;
